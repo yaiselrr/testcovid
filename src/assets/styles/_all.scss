@@ -1,0 +1,165 @@
+body {
+    overflow: auto !important;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+    font-weight: 500 !important;
+    box-shadow: 2px 3px 5px #ccc !important;
+}
+
+.main-btn {
+    background-color: $color-btn !important;
+}
+
+.card-subtitle {
+    color: $color-card-subtitle;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.title {
+    color: $color-title;
+    font-weight: bolder;
+}
+
+.form-select-sm {
+    color: $color-form-select;
+}
+
+#signaturePad {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 22%) !important;
+    margin-top: 0.3rem;
+}
+
+.page-item.active .page-link {
+    background-color: $color-sidebar !important;
+}
+
+tbody tr {
+    border: 1px solid $color-table-border;
+    color: $color-table-body;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-tabs .card-header {
+    background-color: unset;
+    border-bottom: unset;
+    padding: 0;
+}
+
+.card-tabs .card-header .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: unset;
+    color: $color-card;
+    font-weight: 500;
+    border-bottom: 2px solid $color-card;
+    padding-bottom: 2px;
+    margin-left: 0.6rem;
+    border-radius: 0;
+}
+
+.card-tabs .card-header .nav-link {
+    color: $color-card-tab;
+}
+
+.card-title {
+    border-bottom: 2.5px solid $color-sidebar;
+}
+
+.search_results {
+    position: absolute;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 16%);
+    background: #ffffff;
+    border-top-color: transparent;
+    list-style: none;
+    padding-left: 15px;
+    cursor: pointer;
+    color: $color-sidebar;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.icon-table {
+    font-size: 18px !important;
+    color: $color-sidebar !important;
+}
+
+.icon-container {
+    text-align: center;
+    color: $color-sidebar;
+    padding: 6px;
+}
+
+h5 {
+    color: $color-btn;
+}
+
+h6 {
+    border-bottom: 2px solid;
+    padding-bottom: 0.5rem;
+    color: $color-sidebar;
+}
+
+.cs-pointer {
+    cursor: pointer;
+}
+
+.pagination-sm .page-link {
+    padding: 0.1rem 0.5rem;
+}
+
+span.badge.badge-danger {
+    background-color: $color-badge;
+}
+
+.file-input {
+    margin: auto;
+    height: 68px;
+    position: relative;
+}
+
+.file-input label {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    padding: 14px;
+    border: 2px solid #0d7fd0;
+}
+
+.file-input input {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: -2;
+}
+
+input.large_check {
+    width: 20px;
+    height: 20px;
+}
+
+.modal-table thead {
+    color: $color-title;
+}
+
+.card-bgcolor {
+    background-color: $color-bgcard;
+}
+
+@media (max-width: 992px) {
+    .modal-table.b-table-stacked-lg > tbody > tr > [data-label]::before {
+        color: $color-title !important;
+    }
+}

@@ -1,0 +1,28 @@
+$sidebar-width: 205px;
+$top-navbar-height: 127px;
+$navbar-heigth: 95px;
+$navbar-logo-width: 115px;
+$navbar-logoNav-width: 250px;
+
+$color-topbar: #154c7e;
+$color-sidebar: #597fa4;
+$color-btn: #275f92fc;
+$color-btn-hover: #275f92c2;
+$color-card-subtitle: #746d6d99;
+$color-section-name: #406892;
+$color-title: #0d7fd0;
+$color-form-select: #73767a;
+$color-table-border: #03a9f447;
+$color-table-body: #746d6dfc;
+$color-card: #00c8e5;
+$color-card-tab: #746d6dbf;
+$color-badge: #ff0000;
+$color-medical-record-title: #00bcd4;
+$color-patient-table-border: #1bbdd2;
+$color-table-separator: #8080804f;
+$color-bgcard: #f0f8ff;
+
+@import "all";
+@import "topbar";
+@import "sidebar";
+@import "navbar";

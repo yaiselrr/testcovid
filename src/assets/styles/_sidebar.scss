@@ -1,0 +1,45 @@
+#sidebar-nav {
+    width: $sidebar-width;
+    background: $color-sidebar !important;
+}
+
+.b-sidebar-body .nav-item a,
+.b-sidebar-footer .nav-link.dropdown-toggle {
+    color: white;
+    font-weight: 600;
+}
+
+.router-link-exact-active {
+    background-color: $color-btn-hover !important;
+}
+
+.dropdown-divider {
+    border-top: 2px solid #e9ecef !important;
+}
+
+.sidebar-button {
+    padding: 1px 5px;
+    border: 0;
+}
+
+.b-sidebar {
+    top: 118px !important;
+    height: calc(100% - 118px);
+
+}
+
+@media (min-width: 992px) {
+    #sidebar-nav {
+        display: flex !important;
+        transform: none;
+        visibility: visible !important;
+    }
+
+    .sidebar-button {
+        display: none !important;
+    }
+
+    main {
+        margin-left: $sidebar-width;
+    }
+}

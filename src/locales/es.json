@@ -1,0 +1,10 @@
+{
+    "language": "Español",
+    "languages": {
+        "es": "Español",
+        "en": "Ingles"
+    },
+    "general": {
+        "logout": "Cerrar sesión"
+    }
+}
